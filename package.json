@@ -1,0 +1,24 @@
+{
+  "name": "fancy-cli",
+  "version": "1.0.0",
+  "description": "the fanciest cli",
+  "bin": {
+    "fancy": "bin/fancy.js"
+  },
+  "scripts": {
+    "run": "node bin/fancy.js",
+    "ginstall": "npm install -g"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "clipboardy": "^2.3.0",
+    "clui": "^0.3.6",
+    "commander": "^6.0.0",
+    "figlet": "^1.5.0",
+    "leven": "^3.1.0"
+  }
+}
